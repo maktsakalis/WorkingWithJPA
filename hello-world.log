@@ -1,0 +1,1995 @@
+13:11:52,584 DEBUG SQL:109 - 
+    insert 
+    into
+        Message
+        (text) 
+    values
+        (?)
+13:11:52,615 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello]
+13:12:13,227 DEBUG SQL:109 - 
+    insert 
+    into
+        Message
+        (text) 
+    values
+        (?)
+13:12:13,257 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello]
+13:14:32,765 DEBUG SQL:109 - 
+    insert 
+    into
+        Message
+        (text) 
+    values
+        (?)
+13:14:32,794 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello]
+13:14:58,642 DEBUG SQL:109 - 
+    insert 
+    into
+        Message
+        (text) 
+    values
+        (?)
+13:14:58,672 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello]
+13:15:27,884 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+13:15:27,890 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+13:15:27,891 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+13:15:27,891 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+13:15:27,906 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:15:27,906 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [8]
+13:15:27,912 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:15:27,912 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [8]
+13:15:27,917 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:15:27,917 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+13:15:27,918 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [8]
+13:15:27,918 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+13:15:27,920 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:15:27,922 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+13:15:27,922 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [8]
+13:15:27,922 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+13:18:10,326 DEBUG SQL:109 - 
+    insert 
+    into
+        Message
+        (text) 
+    values
+        (?)
+13:18:10,333 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello]
+13:18:31,630 DEBUG SQL:109 - 
+    insert 
+    into
+        Message
+        (text) 
+    values
+        (?)
+13:18:31,637 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello]
+13:18:42,702 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+13:18:42,710 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+13:18:42,711 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+13:18:42,712 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+13:19:00,964 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:19:00,966 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [9]
+13:19:28,624 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:19:28,626 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [9]
+13:20:28,299 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:20:28,300 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+13:20:28,301 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [9]
+13:20:28,302 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+13:20:28,304 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:20:28,305 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+13:20:28,305 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [9]
+13:20:28,306 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+13:48:56,013 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+13:48:56,020 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+13:48:56,021 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+13:48:56,022 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+13:48:56,038 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:48:56,039 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [10]
+13:49:11,861 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:49:11,863 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [10]
+13:50:59,904 DEBUG SQL:109 - 
+    insert 
+    into
+        Message
+        (text) 
+    values
+        (?)
+13:50:59,934 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello]
+13:51:34,981 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:51:34,982 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+13:51:34,982 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [10]
+13:51:34,983 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+13:51:34,985 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:51:34,985 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+13:51:34,986 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [10]
+13:51:34,986 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+13:52:24,546 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+13:52:24,553 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+13:52:24,554 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+13:52:24,554 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+13:52:24,574 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:52:24,575 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [11]
+13:53:50,798 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:53:50,800 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [11]
+13:54:37,124 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:54:37,125 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+13:54:37,125 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [11]
+13:54:37,126 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+13:54:37,128 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:54:37,128 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+13:54:37,128 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [11]
+13:54:37,129 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+13:56:27,119 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+13:56:27,128 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+13:56:27,129 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+13:56:27,130 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+13:56:38,429 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+13:56:38,430 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [12]
+13:56:38,436 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_0_0_,
+        students0_.id as id1_2_0_,
+        students0_.id as id1_2_1_,
+        students0_.enrollment_id as enrollme2_2_1_,
+        students0_.guide_id as guide_id4_2_1_,
+        students0_.name as name3_2_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+13:56:38,437 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [12]
+13:56:54,290 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:56:54,291 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+13:56:54,292 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [12]
+13:56:54,293 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+13:56:54,294 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+13:56:54,294 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+13:56:54,295 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [12]
+13:56:54,295 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+14:06:11,403 DEBUG SQL:109 - 
+    insert 
+    into
+        Message
+        (text) 
+    values
+        (?)
+14:06:11,465 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Hello]
+14:10:54,527 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+14:10:54,534 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+14:10:54,535 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+14:10:54,536 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+14:12:36,918 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+14:12:36,925 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+14:12:36,926 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+14:12:36,927 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+14:12:40,053 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+14:12:40,053 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+14:12:40,054 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+14:12:40,054 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+14:24:33,559 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+14:24:33,565 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+14:24:33,566 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+14:24:33,566 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+14:24:33,583 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+14:24:33,584 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [16]
+14:25:08,045 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+14:25:08,051 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+14:25:08,052 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+14:25:08,053 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+14:25:08,067 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_0_0_,
+        guide0_.name as name2_0_0_,
+        guide0_.salary as salary3_0_0_,
+        guide0_.staff_id as staff_id4_0_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+14:25:08,067 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [17]
+14:25:08,076 DEBUG SQL:109 - 
+    update
+        Guide 
+    set
+        name=?,
+        salary=?,
+        staff_id=? 
+    where
+        id=?
+14:25:08,077 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+14:25:08,077 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [5000]
+14:25:08,077 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+14:25:08,077 TRACE BasicBinder:81 - binding parameter [4] as [BIGINT] - [17]
+14:40:55,219 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+14:40:55,226 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+14:41:26,603 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+14:41:26,614 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+14:41:35,693 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+14:41:35,706 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+14:41:41,930 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+14:41:41,938 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+15:20:49,913 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+15:20:49,920 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+15:22:33,390 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+15:22:33,397 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+15:22:33,412 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+15:22:33,413 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+15:23:02,291 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+15:23:02,298 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+15:23:02,312 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+15:23:02,313 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+15:23:27,902 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+15:23:27,909 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+15:23:48,101 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+15:23:48,108 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+15:23:48,154 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_1_0_,
+        message0_.text as text2_1_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+15:23:48,155 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+17:14:06,699 DEBUG SQL:109 - 
+    insert 
+    into
+        Passport
+        (passport_number) 
+    values
+        (?)
+17:14:06,706 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [925076473]
+17:14:06,711 DEBUG SQL:109 - 
+    insert 
+    into
+        Customer
+        (name, passport_id) 
+    values
+        (?, ?)
+17:14:06,711 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+17:14:06,712 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+17:16:03,804 DEBUG SQL:109 - 
+    insert 
+    into
+        Passport
+        (passport_number) 
+    values
+        (?)
+17:16:03,810 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [925076473]
+17:16:03,815 DEBUG SQL:109 - 
+    insert 
+    into
+        Customer
+        (name, passport_id) 
+    values
+        (?, ?)
+17:16:03,815 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+17:16:03,816 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [2]
+17:16:40,748 DEBUG SQL:109 - 
+    insert 
+    into
+        Passport
+        (customer_id, passport_number) 
+    values
+        (?, ?)
+17:16:40,754 TRACE BasicBinder:69 - binding parameter [1] as [BIGINT] - [null]
+17:16:40,755 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [925076473]
+17:16:40,761 DEBUG SQL:109 - 
+    insert 
+    into
+        Customer
+        (name, passport_id) 
+    values
+        (?, ?)
+17:16:40,761 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+17:16:40,762 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [3]
+17:16:59,292 DEBUG SQL:109 - 
+    insert 
+    into
+        Passport
+        (customer_id, passport_number) 
+    values
+        (?, ?)
+17:16:59,298 TRACE BasicBinder:69 - binding parameter [1] as [BIGINT] - [null]
+17:16:59,299 TRACE BasicBinder:81 - binding parameter [2] as [VARCHAR] - [925076473]
+17:16:59,305 DEBUG SQL:109 - 
+    insert 
+    into
+        Customer
+        (name, passport_id) 
+    values
+        (?, ?)
+17:16:59,305 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+17:16:59,305 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [4]
+17:17:23,850 DEBUG SQL:109 - 
+    insert 
+    into
+        Passport
+        (passport_number) 
+    values
+        (?)
+17:17:23,857 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [925076473]
+17:17:23,863 DEBUG SQL:109 - 
+    insert 
+    into
+        Customer
+        (name, passport_id) 
+    values
+        (?, ?)
+17:17:23,864 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+17:17:23,865 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [5]
+17:19:35,698 DEBUG SQL:109 - 
+    alter table Customer 
+        drop 
+        foreign key FK_eqsqcfe0n0al6jf5ewnx392nl
+17:19:35,706 DEBUG SQL:109 - 
+    alter table Student 
+        drop 
+        foreign key FK_kf6egxhj81a1pp6596ox4c0ul
+17:19:35,710 DEBUG SQL:109 - 
+    drop table if exists Customer
+17:19:35,717 DEBUG SQL:109 - 
+    drop table if exists Guide
+17:19:35,721 DEBUG SQL:109 - 
+    drop table if exists Message
+17:19:35,727 DEBUG SQL:109 - 
+    drop table if exists Passport
+17:19:35,730 DEBUG SQL:109 - 
+    drop table if exists Student
+17:19:35,740 DEBUG SQL:109 - 
+    create table Customer (
+        id bigint not null auto_increment,
+        name varchar(255),
+        passport_id bigint,
+        primary key (id)
+    )
+17:20:07,894 DEBUG SQL:109 - 
+    alter table Customer 
+        drop 
+        foreign key FK_eqsqcfe0n0al6jf5ewnx392nl
+17:20:07,901 DEBUG SQL:109 - 
+    alter table Student 
+        drop 
+        foreign key FK_kf6egxhj81a1pp6596ox4c0ul
+17:20:07,908 DEBUG SQL:109 - 
+    drop table if exists Customer
+17:20:07,913 DEBUG SQL:109 - 
+    drop table if exists Guide
+17:20:07,928 DEBUG SQL:109 - 
+    drop table if exists Message
+17:20:07,933 DEBUG SQL:109 - 
+    drop table if exists Passport
+17:20:07,939 DEBUG SQL:109 - 
+    drop table if exists Student
+17:20:07,958 DEBUG SQL:109 - 
+    create table Customer (
+        id bigint not null auto_increment,
+        name varchar(255),
+        passport_id bigint,
+        primary key (id)
+    )
+17:20:07,970 DEBUG SQL:109 - 
+    create table Guide (
+        id bigint not null auto_increment,
+        name varchar(255),
+        salary integer,
+        staff_id varchar(255) not null,
+        primary key (id)
+    )
+17:20:07,979 DEBUG SQL:109 - 
+    create table Message (
+        id bigint not null auto_increment,
+        text varchar(255),
+        primary key (id)
+    )
+17:20:07,988 DEBUG SQL:109 - 
+    create table Passport (
+        id bigint not null auto_increment,
+        passport_number varchar(255),
+        primary key (id)
+    )
+17:20:08,000 DEBUG SQL:109 - 
+    create table Student (
+        id bigint not null auto_increment,
+        enrollment_id varchar(255) not null,
+        name varchar(255),
+        guide_id bigint,
+        primary key (id)
+    )
+17:20:08,017 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint UK_eqsqcfe0n0al6jf5ewnx392nl  unique (passport_id)
+17:20:08,026 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint FK_eqsqcfe0n0al6jf5ewnx392nl 
+        foreign key (passport_id) 
+        references Passport (id)
+17:20:08,048 DEBUG SQL:109 - 
+    alter table Student 
+        add constraint FK_kf6egxhj81a1pp6596ox4c0ul 
+        foreign key (guide_id) 
+        references Guide (id)
+17:20:08,156 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_2_0_,
+        message0_.text as text2_2_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+17:20:08,162 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+17:20:14,952 DEBUG SQL:109 - 
+    alter table Customer 
+        drop 
+        foreign key FK_eqsqcfe0n0al6jf5ewnx392nl
+17:20:14,960 DEBUG SQL:109 - 
+    alter table Student 
+        drop 
+        foreign key FK_kf6egxhj81a1pp6596ox4c0ul
+17:20:14,965 DEBUG SQL:109 - 
+    drop table if exists Customer
+17:20:14,970 DEBUG SQL:109 - 
+    drop table if exists Guide
+17:20:14,974 DEBUG SQL:109 - 
+    drop table if exists Message
+17:20:24,604 DEBUG SQL:109 - 
+    drop table if exists Passport
+17:20:24,609 DEBUG SQL:109 - 
+    drop table if exists Student
+17:20:24,627 DEBUG SQL:109 - 
+    create table Customer (
+        id bigint not null auto_increment,
+        name varchar(255),
+        passport_id bigint,
+        primary key (id)
+    )
+17:20:24,643 DEBUG SQL:109 - 
+    create table Guide (
+        id bigint not null auto_increment,
+        name varchar(255),
+        salary integer,
+        staff_id varchar(255) not null,
+        primary key (id)
+    )
+17:20:24,654 DEBUG SQL:109 - 
+    create table Message (
+        id bigint not null auto_increment,
+        text varchar(255),
+        primary key (id)
+    )
+17:20:24,662 DEBUG SQL:109 - 
+    create table Passport (
+        id bigint not null auto_increment,
+        passport_number varchar(255),
+        primary key (id)
+    )
+17:20:24,670 DEBUG SQL:109 - 
+    create table Student (
+        id bigint not null auto_increment,
+        enrollment_id varchar(255) not null,
+        name varchar(255),
+        guide_id bigint,
+        primary key (id)
+    )
+17:20:24,678 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint UK_eqsqcfe0n0al6jf5ewnx392nl  unique (passport_id)
+17:20:24,686 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint FK_eqsqcfe0n0al6jf5ewnx392nl 
+        foreign key (passport_id) 
+        references Passport (id)
+17:20:24,710 DEBUG SQL:109 - 
+    alter table Student 
+        add constraint FK_kf6egxhj81a1pp6596ox4c0ul 
+        foreign key (guide_id) 
+        references Guide (id)
+17:20:24,826 DEBUG SQL:109 - 
+    insert 
+    into
+        Passport
+        (passport_number) 
+    values
+        (?)
+17:20:24,832 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [925076473]
+17:20:24,837 DEBUG SQL:109 - 
+    insert 
+    into
+        Customer
+        (name, passport_id) 
+    values
+        (?, ?)
+17:20:24,838 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+17:20:24,838 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+17:23:48,868 DEBUG SQL:109 - 
+    alter table Customer 
+        drop 
+        foreign key FK_eqsqcfe0n0al6jf5ewnx392nl
+17:23:48,874 DEBUG SQL:109 - 
+    alter table Student 
+        drop 
+        foreign key FK_kf6egxhj81a1pp6596ox4c0ul
+17:23:48,878 DEBUG SQL:109 - 
+    drop table if exists Customer
+17:23:48,882 DEBUG SQL:109 - 
+    drop table if exists Guide
+17:23:48,885 DEBUG SQL:109 - 
+    drop table if exists Message
+17:23:48,891 DEBUG SQL:109 - 
+    drop table if exists Passport
+17:23:48,895 DEBUG SQL:109 - 
+    drop table if exists Student
+17:23:48,900 DEBUG SQL:109 - 
+    create table Customer (
+        id bigint not null auto_increment,
+        name varchar(255),
+        passport_id bigint,
+        primary key (id)
+    )
+17:23:48,919 DEBUG SQL:109 - 
+    create table Guide (
+        id bigint not null auto_increment,
+        name varchar(255),
+        salary integer,
+        staff_id varchar(255) not null,
+        primary key (id)
+    )
+17:23:48,930 DEBUG SQL:109 - 
+    create table Message (
+        id bigint not null auto_increment,
+        text varchar(255),
+        primary key (id)
+    )
+17:23:48,940 DEBUG SQL:109 - 
+    create table Passport (
+        id bigint not null auto_increment,
+        passport_number varchar(255),
+        primary key (id)
+    )
+17:23:48,950 DEBUG SQL:109 - 
+    create table Student (
+        id bigint not null auto_increment,
+        enrollment_id varchar(255) not null,
+        name varchar(255),
+        guide_id bigint,
+        primary key (id)
+    )
+17:23:48,960 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint UK_eqsqcfe0n0al6jf5ewnx392nl  unique (passport_id)
+17:23:48,970 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint FK_eqsqcfe0n0al6jf5ewnx392nl 
+        foreign key (passport_id) 
+        references Passport (id)
+17:23:48,998 DEBUG SQL:109 - 
+    alter table Student 
+        add constraint FK_kf6egxhj81a1pp6596ox4c0ul 
+        foreign key (guide_id) 
+        references Guide (id)
+17:23:49,156 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+17:23:49,162 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+17:23:49,163 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+17:23:49,164 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+17:23:49,185 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+17:23:49,186 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+17:24:02,741 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+17:24:02,742 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+17:24:02,756 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+17:24:02,757 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+17:24:02,757 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+17:24:02,758 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+17:24:02,760 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+17:24:02,761 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+17:24:02,761 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+17:24:02,762 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+17:26:16,489 DEBUG SQL:109 - 
+    alter table Customer 
+        drop 
+        foreign key FK_eqsqcfe0n0al6jf5ewnx392nl
+17:26:16,494 DEBUG SQL:109 - 
+    alter table Student 
+        drop 
+        foreign key FK_kf6egxhj81a1pp6596ox4c0ul
+17:26:16,498 DEBUG SQL:109 - 
+    drop table if exists Customer
+17:26:16,502 DEBUG SQL:109 - 
+    drop table if exists Guide
+17:26:16,506 DEBUG SQL:109 - 
+    drop table if exists Message
+17:26:16,513 DEBUG SQL:109 - 
+    drop table if exists Passport
+17:26:16,517 DEBUG SQL:109 - 
+    drop table if exists Student
+17:26:16,522 DEBUG SQL:109 - 
+    create table Customer (
+        id bigint not null auto_increment,
+        name varchar(255),
+        passport_id bigint,
+        primary key (id)
+    )
+17:26:16,549 DEBUG SQL:109 - 
+    create table Guide (
+        id bigint not null auto_increment,
+        name varchar(255),
+        salary integer,
+        staff_id varchar(255) not null,
+        primary key (id)
+    )
+17:26:16,559 DEBUG SQL:109 - 
+    create table Message (
+        id bigint not null auto_increment,
+        text varchar(255),
+        primary key (id)
+    )
+17:26:16,569 DEBUG SQL:109 - 
+    create table Passport (
+        id bigint not null auto_increment,
+        passport_number varchar(255),
+        primary key (id)
+    )
+17:26:16,579 DEBUG SQL:109 - 
+    create table Student (
+        id bigint not null auto_increment,
+        enrollment_id varchar(255) not null,
+        name varchar(255),
+        guide_id bigint,
+        primary key (id)
+    )
+17:26:16,588 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint UK_eqsqcfe0n0al6jf5ewnx392nl  unique (passport_id)
+17:26:16,599 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint FK_eqsqcfe0n0al6jf5ewnx392nl 
+        foreign key (passport_id) 
+        references Passport (id)
+17:26:16,634 DEBUG SQL:109 - 
+    alter table Student 
+        add constraint FK_kf6egxhj81a1pp6596ox4c0ul 
+        foreign key (guide_id) 
+        references Guide (id)
+17:26:16,858 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+17:26:16,865 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+17:26:16,865 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+17:26:16,866 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+17:26:16,892 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+17:26:16,893 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+17:26:16,901 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+17:26:16,901 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+17:26:53,655 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+17:26:53,656 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+17:26:53,656 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+17:26:53,657 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+17:26:53,657 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+17:26:53,658 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+17:26:53,658 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+17:26:53,658 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+17:26:59,192 DEBUG SQL:109 - 
+    alter table Customer 
+        drop 
+        foreign key FK_eqsqcfe0n0al6jf5ewnx392nl
+17:26:59,198 DEBUG SQL:109 - 
+    alter table Student 
+        drop 
+        foreign key FK_kf6egxhj81a1pp6596ox4c0ul
+17:26:59,201 DEBUG SQL:109 - 
+    drop table if exists Customer
+17:26:59,204 DEBUG SQL:109 - 
+    drop table if exists Guide
+17:26:59,210 DEBUG SQL:109 - 
+    drop table if exists Message
+17:26:59,214 DEBUG SQL:109 - 
+    drop table if exists Passport
+17:26:59,218 DEBUG SQL:109 - 
+    drop table if exists Student
+17:26:59,231 DEBUG SQL:109 - 
+    create table Customer (
+        id bigint not null auto_increment,
+        name varchar(255),
+        passport_id bigint,
+        primary key (id)
+    )
+17:26:59,241 DEBUG SQL:109 - 
+    create table Guide (
+        id bigint not null auto_increment,
+        name varchar(255),
+        salary integer,
+        staff_id varchar(255) not null,
+        primary key (id)
+    )
+17:26:59,249 DEBUG SQL:109 - 
+    create table Message (
+        id bigint not null auto_increment,
+        text varchar(255),
+        primary key (id)
+    )
+17:26:59,256 DEBUG SQL:109 - 
+    create table Passport (
+        id bigint not null auto_increment,
+        passport_number varchar(255),
+        primary key (id)
+    )
+17:26:59,265 DEBUG SQL:109 - 
+    create table Student (
+        id bigint not null auto_increment,
+        enrollment_id varchar(255) not null,
+        name varchar(255),
+        guide_id bigint,
+        primary key (id)
+    )
+17:26:59,273 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint UK_eqsqcfe0n0al6jf5ewnx392nl  unique (passport_id)
+17:26:59,280 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint FK_eqsqcfe0n0al6jf5ewnx392nl 
+        foreign key (passport_id) 
+        references Passport (id)
+17:26:59,311 DEBUG SQL:109 - 
+    alter table Student 
+        add constraint FK_kf6egxhj81a1pp6596ox4c0ul 
+        foreign key (guide_id) 
+        references Guide (id)
+17:26:59,481 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+17:26:59,488 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+17:26:59,489 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+17:26:59,490 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+17:27:17,171 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+17:27:17,172 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+17:27:17,182 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+17:27:17,182 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+17:27:21,991 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+17:27:21,992 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+17:27:21,993 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+17:27:21,993 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+17:27:21,995 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+17:27:21,996 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+17:27:21,997 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+17:27:21,998 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+20:39:11,611 DEBUG SQL:109 - 
+    alter table Customer 
+        drop 
+        foreign key FK_eqsqcfe0n0al6jf5ewnx392nl
+20:39:11,620 DEBUG SQL:109 - 
+    alter table Student 
+        drop 
+        foreign key FK_kf6egxhj81a1pp6596ox4c0ul
+20:39:11,624 DEBUG SQL:109 - 
+    drop table if exists Customer
+20:39:11,628 DEBUG SQL:109 - 
+    drop table if exists Guide
+20:39:11,635 DEBUG SQL:109 - 
+    drop table if exists Message
+20:39:11,639 DEBUG SQL:109 - 
+    drop table if exists Passport
+20:39:11,643 DEBUG SQL:109 - 
+    drop table if exists Student
+20:39:11,649 DEBUG SQL:109 - 
+    create table Customer (
+        id bigint not null auto_increment,
+        name varchar(255),
+        passport_id bigint,
+        primary key (id)
+    )
+20:39:11,666 DEBUG SQL:109 - 
+    create table Guide (
+        id bigint not null auto_increment,
+        name varchar(255),
+        salary integer,
+        staff_id varchar(255) not null,
+        primary key (id)
+    )
+20:39:11,675 DEBUG SQL:109 - 
+    create table Message (
+        id bigint not null auto_increment,
+        text varchar(255),
+        primary key (id)
+    )
+20:39:11,682 DEBUG SQL:109 - 
+    create table Passport (
+        id bigint not null auto_increment,
+        passport_number varchar(255),
+        primary key (id)
+    )
+20:39:11,691 DEBUG SQL:109 - 
+    create table Student (
+        id bigint not null auto_increment,
+        enrollment_id varchar(255) not null,
+        name varchar(255),
+        guide_id bigint,
+        primary key (id)
+    )
+20:39:11,700 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint UK_eqsqcfe0n0al6jf5ewnx392nl  unique (passport_id)
+20:39:11,707 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint FK_eqsqcfe0n0al6jf5ewnx392nl 
+        foreign key (passport_id) 
+        references Passport (id)
+20:39:11,732 DEBUG SQL:109 - 
+    alter table Student 
+        add constraint FK_kf6egxhj81a1pp6596ox4c0ul 
+        foreign key (guide_id) 
+        references Guide (id)
+20:39:11,882 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+20:39:11,890 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [8]
+20:40:20,493 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+20:40:20,496 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+20:40:20,499 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+20:40:20,501 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+20:40:21,468 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+20:40:21,469 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+20:40:21,493 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+20:40:21,494 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+20:40:22,097 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+20:40:22,098 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+20:40:22,099 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+20:40:22,099 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+20:40:22,102 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+20:40:22,103 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+20:40:22,103 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+20:40:22,104 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+20:40:48,708 DEBUG SQL:109 - 
+    alter table Customer 
+        drop 
+        foreign key FK_eqsqcfe0n0al6jf5ewnx392nl
+20:40:48,716 DEBUG SQL:109 - 
+    alter table Student 
+        drop 
+        foreign key FK_kf6egxhj81a1pp6596ox4c0ul
+20:40:48,719 DEBUG SQL:109 - 
+    drop table if exists Customer
+20:40:48,723 DEBUG SQL:109 - 
+    drop table if exists Guide
+20:40:48,729 DEBUG SQL:109 - 
+    drop table if exists Message
+20:40:48,734 DEBUG SQL:109 - 
+    drop table if exists Passport
+20:40:48,738 DEBUG SQL:109 - 
+    drop table if exists Student
+20:40:48,743 DEBUG SQL:109 - 
+    create table Customer (
+        id bigint not null auto_increment,
+        name varchar(255),
+        passport_id bigint,
+        primary key (id)
+    )
+20:40:48,757 DEBUG SQL:109 - 
+    create table Guide (
+        id bigint not null auto_increment,
+        name varchar(255),
+        salary integer,
+        staff_id varchar(255) not null,
+        primary key (id)
+    )
+20:40:48,767 DEBUG SQL:109 - 
+    create table Message (
+        id bigint not null auto_increment,
+        text varchar(255),
+        primary key (id)
+    )
+20:40:48,775 DEBUG SQL:109 - 
+    create table Passport (
+        id bigint not null auto_increment,
+        passport_number varchar(255),
+        primary key (id)
+    )
+20:40:48,782 DEBUG SQL:109 - 
+    create table Student (
+        id bigint not null auto_increment,
+        enrollment_id varchar(255) not null,
+        name varchar(255),
+        guide_id bigint,
+        primary key (id)
+    )
+20:40:48,789 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint UK_eqsqcfe0n0al6jf5ewnx392nl  unique (passport_id)
+20:40:48,797 DEBUG SQL:109 - 
+    alter table Customer 
+        add constraint FK_eqsqcfe0n0al6jf5ewnx392nl 
+        foreign key (passport_id) 
+        references Passport (id)
+20:40:48,824 DEBUG SQL:109 - 
+    alter table Student 
+        add constraint FK_kf6egxhj81a1pp6596ox4c0ul 
+        foreign key (guide_id) 
+        references Guide (id)
+20:40:48,998 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+20:40:49,006 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [8]
+20:41:13,452 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+20:41:13,454 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+20:41:13,456 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+20:41:13,457 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+20:41:13,848 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+20:41:13,849 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+20:41:13,861 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+20:41:13,862 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+20:41:14,192 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+20:41:14,193 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+20:41:14,194 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+20:41:14,194 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+20:41:14,196 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+20:41:14,197 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+20:41:14,197 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+20:41:14,198 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+20:46:19,835 DEBUG SQL:109 - 
+    select
+        message0_.id as id1_2_0_,
+        message0_.text as text2_2_0_ 
+    from
+        Message message0_ 
+    where
+        message0_.id=?
+20:46:19,846 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+20:46:51,631 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+20:46:51,643 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+20:46:51,644 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+20:46:51,645 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+20:46:51,919 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+20:46:51,920 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+20:46:51,929 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+20:46:51,929 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+20:46:52,081 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+20:46:52,082 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+20:46:52,083 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [2]
+20:46:52,083 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+20:46:52,086 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+20:46:52,087 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+20:46:52,087 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [2]
+20:46:52,088 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+20:49:44,544 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+20:49:44,575 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+20:50:04,422 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+20:50:04,457 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+20:50:04,471 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+20:50:04,471 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+20:50:59,541 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+20:50:59,572 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+20:50:59,586 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+20:50:59,587 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+20:51:20,033 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+20:51:20,064 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+20:51:20,078 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+20:51:20,078 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+21:27:38,243 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+21:27:38,250 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Rose Ann]
+21:27:38,251 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [4000]
+21:27:38,251 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000RN10349]
+21:27:38,269 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:27:38,270 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+21:27:38,276 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+21:27:38,276 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+21:27:38,280 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+21:27:38,280 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015JR50244]
+21:27:38,280 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [3]
+21:27:38,281 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Jason Bird]
+21:27:38,281 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+21:27:38,282 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2015LK50878]
+21:27:38,282 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [3]
+21:27:38,282 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Lisa Mizuki]
+21:31:50,714 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:31:50,723 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:32:15,916 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+21:32:15,917 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:33:00,018 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:33:00,026 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:33:25,056 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+21:33:25,056 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:33:36,068 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:33:36,099 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:33:36,113 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+21:33:36,114 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:33:41,470 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:33:41,477 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:33:56,211 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:33:56,218 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:34:14,721 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+21:34:14,721 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:46:22,234 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:46:22,265 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+21:46:22,285 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:46:22,286 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+21:47:47,355 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:47:47,392 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+21:47:47,412 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:47:47,412 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:47:47,414 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+21:47:47,415 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:48:54,459 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:48:54,489 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+21:48:54,510 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:48:54,511 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:48:54,512 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+21:48:54,513 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:49:23,425 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:49:23,454 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+21:49:23,474 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_1_0_,
+        guide0_.name as name2_1_0_,
+        guide0_.salary as salary3_1_0_,
+        guide0_.staff_id as staff_id4_1_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:49:23,474 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:49:23,476 DEBUG SQL:109 - 
+    select
+        students0_.guide_id as guide_id4_1_0_,
+        students0_.id as id1_4_0_,
+        students0_.id as id1_4_1_,
+        students0_.enrollment_id as enrollme2_4_1_,
+        students0_.guide_id as guide_id4_4_1_,
+        students0_.name as name3_4_1_ 
+    from
+        Student students0_ 
+    where
+        students0_.guide_id=?
+21:49:23,477 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+21:50:26,831 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:50:26,870 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+21:50:26,895 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:50:26,896 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+21:50:44,578 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:50:44,616 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+21:50:44,636 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_4_0_,
+        student0_.enrollment_id as enrollme2_4_0_,
+        student0_.guide_id as guide_id4_4_0_,
+        student0_.name as name3_4_0_,
+        guide1_.id as id1_1_1_,
+        guide1_.name as name2_1_1_,
+        guide1_.salary as salary3_1_1_,
+        guide1_.staff_id as staff_id4_1_1_ 
+    from
+        Student student0_ 
+    left outer join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id 
+    where
+        student0_.id=?
+21:50:44,637 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
