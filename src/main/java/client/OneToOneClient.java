@@ -23,6 +23,5 @@ public class OneToOneClient {
         em.getTransaction().commit();
         em.close();
         emf.close();
-
     }
 }

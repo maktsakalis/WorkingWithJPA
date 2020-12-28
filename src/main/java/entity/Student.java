@@ -1,9 +1,9 @@
 package entity;
 
-import java.util.Objects;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -31,7 +31,7 @@ public class Student {
 
     private String name;
 
-    @ManyToOne(cascade = {CascadeType.PERSIST})
+    @ManyToOne(cascade = {CascadeType.PERSIST}, fetch = FetchType.LAZY)
     @JoinColumn(name = "guide_id")
     private Guide guide;
 
@@ -57,33 +57,49 @@ public class Student {
         return guide;
     }
 
+    public void setEnrollmentId(String enrollmentId) {
+        this.enrollmentId = enrollmentId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public void setGuide(Guide guide) {
         this.guide = guide;
     }
 
-    @Override
-    public int hashCode() {
-        int hash = 7;
-        hash = 89 * hash + Objects.hashCode(this.enrollmentId);
-        return hash;
+//    @Override
+//    public int hashCode() {
+//        int hash = 7;
+//        hash = 89 * hash + Objects.hashCode(this.enrollmentId);
+//        return hash;
+//    }
+//
+//    @Override
+//    public boolean equals(Object obj) {
+//        if (this == obj) {
+//            return true;
+//        }
+//        if (obj == null) {
+//            return false;
+//        }
+//        if (getClass() != obj.getClass()) {
+//            return false;
+//        }
+//        final Student other = (Student) obj;
+//        if (!Objects.equals(this.enrollmentId, other.enrollmentId)) {
+//            return false;
+//        }
+//        return true;
+//    }
+    public Long getId() {
+        return id;
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        final Student other = (Student) obj;
-        if (!Objects.equals(this.enrollmentId, other.enrollmentId)) {
-            return false;
-        }
-        return true;
+    public String toString() {
+        return "Student{" + "id=" + id + ", enrollmentId=" + enrollmentId + ", name=" + name + '}';
     }
 
 }
