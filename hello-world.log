@@ -1993,3 +1993,1919 @@
     where
         student0_.id=?
 21:50:44,637 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:44:53,857 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_,
+        student0_.enrollment_id as enrollme2_5_,
+        student0_.guide_id as guide_id4_5_,
+        student0_.name as name3_5_ 
+    from
+        Student student0_
+11:51:24,953 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_0_,
+        guide1_.id as id1_2_1_,
+        student0_.enrollment_id as enrollme2_5_0_,
+        student0_.guide_id as guide_id4_5_0_,
+        student0_.name as name3_5_0_,
+        guide1_.name as name2_2_1_,
+        guide1_.salary as salary3_2_1_,
+        guide1_.staff_id as staff_id4_2_1_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+11:51:45,419 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_,
+        student0_.enrollment_id as enrollme2_5_,
+        student0_.guide_id as guide_id4_5_,
+        student0_.name as name3_5_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+11:52:51,666 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_,
+        student0_.enrollment_id as enrollme2_5_,
+        student0_.guide_id as guide_id4_5_,
+        student0_.name as name3_5_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+11:52:51,681 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_2_0_,
+        guide0_.name as name2_2_0_,
+        guide0_.salary as salary3_2_0_,
+        guide0_.staff_id as staff_id4_2_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:52:51,682 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+11:53:09,474 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_0_,
+        guide1_.id as id1_2_1_,
+        student0_.enrollment_id as enrollme2_5_0_,
+        student0_.guide_id as guide_id4_5_0_,
+        student0_.name as name3_5_0_,
+        guide1_.name as name2_2_1_,
+        guide1_.salary as salary3_2_1_,
+        guide1_.staff_id as staff_id4_2_1_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+11:53:46,190 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_,
+        student0_.enrollment_id as enrollme2_5_,
+        student0_.guide_id as guide_id4_5_,
+        student0_.name as name3_5_ 
+    from
+        Student student0_
+11:53:46,203 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_2_0_,
+        guide0_.name as name2_2_0_,
+        guide0_.salary as salary3_2_0_,
+        guide0_.staff_id as staff_id4_2_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:53:46,205 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+11:55:50,971 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_0_,
+        guide1_.id as id1_2_1_,
+        student0_.enrollment_id as enrollme2_5_0_,
+        student0_.guide_id as guide_id4_5_0_,
+        student0_.name as name3_5_0_,
+        guide1_.name as name2_2_1_,
+        guide1_.salary as salary3_2_1_,
+        guide1_.staff_id as staff_id4_2_1_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+11:56:02,944 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_,
+        student0_.enrollment_id as enrollme2_5_,
+        student0_.guide_id as guide_id4_5_,
+        student0_.name as name3_5_ 
+    from
+        Student student0_
+11:56:02,959 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_2_0_,
+        guide0_.name as name2_2_0_,
+        guide0_.salary as salary3_2_0_,
+        guide0_.staff_id as staff_id4_2_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:56:02,961 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+11:56:02,968 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_2_0_,
+        guide0_.name as name2_2_0_,
+        guide0_.salary as salary3_2_0_,
+        guide0_.staff_id as staff_id4_2_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:56:02,968 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:56:24,242 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_0_,
+        guide1_.id as id1_2_1_,
+        student0_.enrollment_id as enrollme2_5_0_,
+        student0_.guide_id as guide_id4_5_0_,
+        student0_.name as name3_5_0_,
+        guide1_.name as name2_2_1_,
+        guide1_.salary as salary3_2_1_,
+        guide1_.staff_id as staff_id4_2_1_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+11:56:40,429 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_,
+        student0_.enrollment_id as enrollme2_5_,
+        student0_.guide_id as guide_id4_5_,
+        student0_.name as name3_5_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+11:56:40,442 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_2_0_,
+        guide0_.name as name2_2_0_,
+        guide0_.salary as salary3_2_0_,
+        guide0_.staff_id as staff_id4_2_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:56:40,444 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+11:56:40,450 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_2_0_,
+        guide0_.name as name2_2_0_,
+        guide0_.salary as salary3_2_0_,
+        guide0_.staff_id as staff_id4_2_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+11:56:40,451 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+11:57:03,263 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_0_,
+        guide1_.id as id1_2_1_,
+        student0_.enrollment_id as enrollme2_5_0_,
+        student0_.guide_id as guide_id4_5_0_,
+        student0_.name as name3_5_0_,
+        guide1_.name as name2_2_1_,
+        guide1_.salary as salary3_2_1_,
+        guide1_.staff_id as staff_id4_2_1_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+11:57:53,832 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_0_,
+        guide1_.id as id1_2_1_,
+        student0_.enrollment_id as enrollme2_5_0_,
+        student0_.guide_id as guide_id4_5_0_,
+        student0_.name as name3_5_0_,
+        guide1_.name as name2_2_1_,
+        guide1_.salary as salary3_2_1_,
+        guide1_.staff_id as staff_id4_2_1_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+12:01:23,122 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_,
+        student0_.enrollment_id as enrollme2_5_,
+        student0_.guide_id as guide_id4_5_,
+        student0_.name as name3_5_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+12:01:23,137 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_2_0_,
+        guide0_.name as name2_2_0_,
+        guide0_.salary as salary3_2_0_,
+        guide0_.staff_id as staff_id4_2_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:01:23,138 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:01:23,145 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_2_0_,
+        guide0_.name as name2_2_0_,
+        guide0_.salary as salary3_2_0_,
+        guide0_.staff_id as staff_id4_2_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:01:23,146 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+12:03:02,800 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_5_0_,
+        guide1_.id as id1_2_1_,
+        student0_.enrollment_id as enrollme2_5_0_,
+        student0_.guide_id as guide_id4_5_0_,
+        student0_.name as name3_5_0_,
+        guide1_.name as name2_2_1_,
+        guide1_.salary as salary3_2_1_,
+        guide1_.staff_id as staff_id4_2_1_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+12:34:21,788 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        guide1_.id as id1_2_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        guide1_.name as name2_2_1_,
+        guide1_.salary as salary3_2_1_,
+        guide1_.staff_id as staff_id4_2_1_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+12:34:43,536 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        guide1_.id as id1_2_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        guide1_.name as name2_2_1_,
+        guide1_.salary as salary3_2_1_,
+        guide1_.staff_id as staff_id4_2_1_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+12:35:05,910 DEBUG SQL:109 - 
+    select
+        distinct student0_.id as id1_6_0_,
+        guide1_.id as id1_2_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        guide1_.name as name2_2_1_,
+        guide1_.salary as salary3_2_1_,
+        guide1_.staff_id as staff_id4_2_1_ 
+    from
+        Student student0_ 
+    inner join
+        Guide guide1_ 
+            on student0_.guide_id=guide1_.id
+12:35:53,539 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:35:53,545 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:35:53,558 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:35:53,558 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+12:35:53,559 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:35:53,559 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+12:35:53,560 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:35:53,560 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+12:36:34,835 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:36:34,841 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:36:34,854 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:36:34,854 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+12:36:34,855 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:36:34,856 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+12:36:34,856 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:36:34,857 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+12:36:34,863 DEBUG SQL:109 - 
+    insert 
+    into
+        Relationship
+        (relatedStudent_id, relationshipType, student_id) 
+    values
+        (?, ?, ?)
+12:36:34,864 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:36:34,864 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [2]
+12:36:34,867 DEBUG SQL:109 - 
+    insert 
+    into
+        Relationship
+        (relatedStudent_id, relationshipType, student_id) 
+    values
+        (?, ?, ?)
+12:36:34,867 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:36:34,868 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [2]
+12:36:34,869 DEBUG SQL:109 - 
+    insert 
+    into
+        Relationship
+        (relatedStudent_id, relationshipType, student_id) 
+    values
+        (?, ?, ?)
+12:36:34,869 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:36:34,870 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [2]
+12:37:55,309 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:37:55,315 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:37:55,328 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:37:55,328 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+12:37:55,329 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:37:55,330 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+12:37:55,330 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:37:55,331 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+12:37:55,337 DEBUG SQL:109 - 
+    insert 
+    into
+        Relationship
+        (relatedStudent_id, relationshipType, student_id) 
+    values
+        (?, ?, ?)
+12:37:55,338 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:37:55,338 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [2]
+12:37:55,341 DEBUG SQL:109 - 
+    insert 
+    into
+        Relationship
+        (relatedStudent_id, relationshipType, student_id) 
+    values
+        (?, ?, ?)
+12:37:55,341 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:37:55,341 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [3]
+12:37:55,342 DEBUG SQL:109 - 
+    insert 
+    into
+        Relationship
+        (relatedStudent_id, relationshipType, student_id) 
+    values
+        (?, ?, ?)
+12:37:55,343 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:37:55,344 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [4]
+12:39:12,006 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+12:39:12,025 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:39:12,026 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+12:39:12,029 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:39:12,030 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+12:39:12,031 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:39:12,032 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+12:39:12,033 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_2_0_,
+        guide0_.name as name2_2_0_,
+        guide0_.salary as salary3_2_0_,
+        guide0_.staff_id as staff_id4_2_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:39:12,034 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:44:31,144 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+12:44:31,162 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:44:31,163 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+12:44:31,167 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:44:31,167 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+12:44:31,169 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:44:31,169 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+12:44:31,171 DEBUG SQL:109 - 
+    select
+        guide0_.id as id1_2_0_,
+        guide0_.name as name2_2_0_,
+        guide0_.salary as salary3_2_0_,
+        guide0_.staff_id as staff_id4_2_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:44:31,171 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:46:33,028 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+12:46:33,047 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:46:33,048 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+12:46:33,052 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:46:33,052 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+12:46:33,055 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:46:33,056 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+12:46:51,279 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+12:47:48,822 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+12:47:48,842 DEBUG SQL:109 - 
+    select
+        relatedstu0_.student_id as student_4_6_0_,
+        relatedstu0_.id as id1_5_0_,
+        relatedstu0_.relatedStudent_id as formula0_0_,
+        relatedstu0_.id as id1_5_1_,
+        relatedstu0_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu0_.relationshipType as relation2_5_1_,
+        relatedstu0_.student_id as student_4_5_1_ 
+    from
+        Relationship relatedstu0_ 
+    where
+        relatedstu0_.student_id=?
+12:47:48,844 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+12:47:48,846 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+12:47:48,847 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+12:47:48,849 DEBUG SQL:109 - 
+    select
+        relatedstu0_.student_id as student_4_6_0_,
+        relatedstu0_.id as id1_5_0_,
+        relatedstu0_.relatedStudent_id as formula0_0_,
+        relatedstu0_.id as id1_5_1_,
+        relatedstu0_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu0_.relationshipType as relation2_5_1_,
+        relatedstu0_.student_id as student_4_5_1_ 
+    from
+        Relationship relatedstu0_ 
+    where
+        relatedstu0_.student_id=?
+12:47:48,849 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+12:49:02,676 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+12:50:23,946 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+12:58:48,166 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+12:59:51,766 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+13:05:44,462 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+13:05:44,469 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+13:05:44,482 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+13:05:44,482 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+13:05:44,488 DEBUG SQL:109 - 
+    insert 
+    into
+        Relationship
+        (relatedStudent_id, relationshipType, student_id) 
+    values
+        (?, ?, ?)
+13:05:44,489 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+13:05:44,489 TRACE BasicBinder:81 - binding parameter [3] as [BIGINT] - [1]
+13:06:48,855 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+13:08:49,370 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id
+13:12:49,997 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id
+17:30:57,044 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id
+17:31:26,024 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id
+17:32:14,013 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+17:33:20,121 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+17:33:39,482 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+17:33:39,485 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+17:33:39,505 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+17:33:39,506 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+17:36:09,682 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id
+17:36:54,992 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id
+17:36:55,019 DEBUG SQL:109 - 
+    select
+        studentrel0_.relatedStudent_id as relatedS3_6_0_,
+        studentrel0_.id as id1_5_0_,
+        studentrel0_.student_id as formula1_0_,
+        studentrel0_.id as id1_5_1_,
+        studentrel0_.relatedStudent_id as relatedS3_5_1_,
+        studentrel0_.relationshipType as relation2_5_1_,
+        studentrel0_.student_id as student_4_5_1_ 
+    from
+        Relationship studentrel0_ 
+    where
+        studentrel0_.relatedStudent_id=?
+17:36:55,020 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+17:37:40,391 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+17:38:48,437 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id
+17:43:31,745 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id
+17:46:10,625 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_,
+        student0_.enrollment_id as enrollme2_6_,
+        student0_.guide_id as guide_id4_6_,
+        student0_.name as name3_6_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id
+18:03:52,913 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id
+18:05:10,648 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    where
+        student0_.id=1
+18:13:06,943 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    where
+        student0_.id=1
+18:13:06,962 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+18:13:06,963 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+18:18:49,268 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    where
+        student0_.id=1
+18:18:49,287 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+18:18:49,288 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+18:19:10,189 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    where
+        student0_.id=1
+18:19:10,209 DEBUG SQL:109 - 
+    select
+        studentrel0_.relatedStudent_id as relatedS3_6_0_,
+        studentrel0_.id as id1_5_0_,
+        studentrel0_.student_id as formula1_0_,
+        studentrel0_.id as id1_5_1_,
+        studentrel0_.relatedStudent_id as relatedS3_5_1_,
+        studentrel0_.relationshipType as relation2_5_1_,
+        studentrel0_.student_id as student_4_5_1_ 
+    from
+        Relationship studentrel0_ 
+    where
+        studentrel0_.relatedStudent_id=?
+18:19:10,210 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [1]
+18:19:10,214 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+18:19:10,215 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [2]
+18:19:10,217 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+18:19:10,217 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+18:19:10,218 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+18:19:10,218 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [3]
+18:19:26,677 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    where
+        student0_.id=1
+18:19:26,697 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+18:19:26,698 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+18:20:32,251 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    where
+        student0_.id=1
+18:20:32,270 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+18:20:32,271 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+18:23:37,386 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        relatedstu2_.id as id1_5_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__,
+        relatedstu2_.relatedStudent_id as relatedS3_5_2_,
+        relatedstu2_.relationshipType as relation2_5_2_,
+        relatedstu2_.student_id as student_4_5_2_,
+        relatedstu2_.student_id as student_4_6_1__,
+        relatedstu2_.id as id1_5_1__,
+        relatedstu2_.relatedStudent_id as formula0_1__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    inner join
+        Relationship relatedstu2_ 
+            on student0_.id=relatedstu2_.student_id 
+    where
+        student0_.id=1
+18:23:37,406 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+18:23:37,408 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+18:24:08,980 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        relatedstu2_.id as id1_5_2_,
+        student3_.id as id1_6_3_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__,
+        relatedstu2_.relatedStudent_id as relatedS3_5_2_,
+        relatedstu2_.relationshipType as relation2_5_2_,
+        relatedstu2_.student_id as student_4_5_2_,
+        relatedstu2_.student_id as student_4_6_1__,
+        relatedstu2_.id as id1_5_1__,
+        relatedstu2_.relatedStudent_id as formula0_1__,
+        student3_.enrollment_id as enrollme2_6_3_,
+        student3_.guide_id as guide_id4_6_3_,
+        student3_.name as name3_6_3_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    inner join
+        Relationship relatedstu2_ 
+            on student0_.id=relatedstu2_.student_id 
+    inner join
+        Student student3_ 
+            on relatedstu2_.relatedStudent_id=student3_.id 
+    where
+        student0_.id=1
+18:25:39,387 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    inner join
+        Student student2_ 
+            on relatedstu1_.relatedStudent_id=student2_.id 
+    where
+        student0_.id=1
+18:32:11,538 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    inner join
+        Student student2_ 
+            on relatedstu1_.relatedStudent_id=student2_.id 
+    where
+        student0_.id=1
+18:33:09,411 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    inner join
+        Student student2_ 
+            on relatedstu1_.relatedStudent_id=student2_.id 
+    where
+        student0_.id=1
+18:35:52,550 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    where
+        student0_.id=1
+18:35:52,569 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+18:35:52,570 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+18:36:06,520 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    inner join
+        Student student2_ 
+            on relatedstu1_.relatedStudent_id=student2_.id 
+    where
+        student0_.id=1
+18:36:21,845 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    where
+        student0_.id=1
+18:36:21,864 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+18:36:21,866 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+18:36:33,906 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    inner join
+        Student student2_ 
+            on relatedstu1_.relatedStudent_id=student2_.id 
+    where
+        student0_.id=1
+19:02:26,515 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    inner join
+        Student student2_ 
+            on relatedstu1_.relatedStudent_id=student2_.id 
+    where
+        student0_.id=1
+20:00:16,853 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    where
+        student0_.id=1
+20:00:16,872 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_ 
+    from
+        Student student0_ 
+    where
+        student0_.id=?
+20:00:16,873 TRACE BasicBinder:81 - binding parameter [1] as [BIGINT] - [4]
+20:00:24,009 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        relatedstu1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        relatedstu1_.relatedStudent_id as relatedS3_5_1_,
+        relatedstu1_.relationshipType as relation2_5_1_,
+        relatedstu1_.student_id as student_4_5_1_,
+        relatedstu1_.student_id as student_4_6_0__,
+        relatedstu1_.id as id1_5_0__,
+        relatedstu1_.relatedStudent_id as formula0_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship relatedstu1_ 
+            on student0_.id=relatedstu1_.student_id 
+    inner join
+        Student student2_ 
+            on relatedstu1_.relatedStudent_id=student2_.id 
+    where
+        student0_.id=1
+20:06:14,421 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id 
+    inner join
+        Student student2_ 
+            on studentrel1_.student_id=student2_.id 
+    where
+        student0_.id=1
+20:07:46,312 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id 
+    inner join
+        Student student2_ 
+            on studentrel1_.student_id=student2_.id 
+    where
+        student0_.id=1
+20:26:50,287 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id 
+    inner join
+        Student student2_ 
+            on studentrel1_.student_id=student2_.id 
+    where
+        student0_.id=1 
+        and (
+            student2_.name like 'K%'
+        )
+20:27:15,836 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id 
+    inner join
+        Student student2_ 
+            on studentrel1_.student_id=student2_.id 
+    where
+        student0_.id=1 
+        and (
+            student0_.name like 'K%'
+        )
+20:27:30,332 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id 
+    inner join
+        Student student2_ 
+            on studentrel1_.student_id=student2_.id 
+    where
+        student0_.id=1 
+        and (
+            student2_.name like 'K%'
+        )
+20:35:56,744 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        relatedstu3_.id as id1_5_3_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_,
+        relatedstu3_.relatedStudent_id as relatedS3_5_3_,
+        relatedstu3_.relationshipType as relation2_5_3_,
+        relatedstu3_.student_id as student_4_5_3_,
+        relatedstu3_.student_id as student_4_6_1__,
+        relatedstu3_.id as id1_5_1__,
+        relatedstu3_.relatedStudent_id as formula0_1__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id 
+    inner join
+        Student student2_ 
+            on studentrel1_.student_id=student2_.id 
+    inner join
+        Relationship relatedstu3_ 
+            on student2_.id=relatedstu3_.student_id 
+    where
+        student0_.id=1 
+        and relatedstu3_.relationshipType='FRIEND'
+20:45:27,118 DEBUG SQL:109 - 
+    select
+        student0_.id as id1_6_0_,
+        studentrel1_.id as id1_5_1_,
+        student2_.id as id1_6_2_,
+        relatedstu3_.id as id1_5_3_,
+        student0_.enrollment_id as enrollme2_6_0_,
+        student0_.guide_id as guide_id4_6_0_,
+        student0_.name as name3_6_0_,
+        studentrel1_.relatedStudent_id as relatedS3_5_1_,
+        studentrel1_.relationshipType as relation2_5_1_,
+        studentrel1_.student_id as student_4_5_1_,
+        studentrel1_.relatedStudent_id as relatedS3_6_0__,
+        studentrel1_.id as id1_5_0__,
+        studentrel1_.student_id as formula1_0__,
+        student2_.enrollment_id as enrollme2_6_2_,
+        student2_.guide_id as guide_id4_6_2_,
+        student2_.name as name3_6_2_,
+        relatedstu3_.relatedStudent_id as relatedS3_5_3_,
+        relatedstu3_.relationshipType as relation2_5_3_,
+        relatedstu3_.student_id as student_4_5_3_,
+        relatedstu3_.student_id as student_4_6_1__,
+        relatedstu3_.id as id1_5_1__,
+        relatedstu3_.relatedStudent_id as formula0_1__ 
+    from
+        Student student0_ 
+    inner join
+        Relationship studentrel1_ 
+            on student0_.id=studentrel1_.relatedStudent_id 
+    inner join
+        Student student2_ 
+            on studentrel1_.student_id=student2_.id 
+    inner join
+        Relationship relatedstu3_ 
+            on student2_.id=relatedstu3_.student_id 
+    where
+        student0_.id=1 
+        and relatedstu3_.relationshipType='FRIEND'

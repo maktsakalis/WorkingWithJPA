@@ -1,5 +1,6 @@
 package entity;
 
+import java.util.Map;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,6 +10,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.MapKey;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Student {
@@ -35,6 +38,20 @@ public class Student {
     @JoinColumn(name = "guide_id")
     private Guide guide;
 
+    @OneToMany(mappedBy = "student", cascade = CascadeType.PERSIST)
+    @MapKey(name = "relatedStudent")
+    Map<Student, Relationship> relatedStudentRelationships;
+
+    @OneToMany(mappedBy = "relatedStudent", cascade = CascadeType.PERSIST)
+    @MapKey(name = "student")
+    Map<Student, Relationship> studentRelationships;
+
+//    @OneToMany(mappedBy = "student", cascade = CascadeType.PERSIST)
+//    List<Relationship> relatedStudentRelationships;
+//
+//    @OneToMany(mappedBy = "relatedStudent", cascade = CascadeType.PERSIST)
+//    List<Relationship> studentRelationships;
+
     public Student() {
     }
 
@@ -48,6 +65,7 @@ public class Student {
         this.name = name;
         this.guide = guide;
     }
+
 
     public String getName() {
         return name;
@@ -68,6 +86,23 @@ public class Student {
     public void setGuide(Guide guide) {
         this.guide = guide;
     }
+
+    public Map<Student, Relationship> getRelatedStudentRelationships() {
+        return relatedStudentRelationships;
+    }
+
+    public void setRelatedStudentRelationships(Map<Student, Relationship> relatedStudentRelationships) {
+        this.relatedStudentRelationships = relatedStudentRelationships;
+    }
+
+    public Map<Student, Relationship> getStudentRelationships() {
+        return studentRelationships;
+    }
+
+    public void setStudentRelationships(Map<Student, Relationship> studentRelationships) {
+        this.studentRelationships = studentRelationships;
+    }
+
 
 //    @Override
 //    public int hashCode() {
